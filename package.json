@@ -1,0 +1,20 @@
+{
+  "name": "test-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "logintest": "C:/webdriver/selenium/node_modules/.bin/cucumber-js -f @cucumber/pretty-formatter feature/Login.feature",
+    "logouttest": "C:/webdriver/selenium/node_modules/.bin/cucumber-js -f @cucumber/pretty-formatter feature/Logout.feature"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.2.1",
+    "selenium-webdriver": "^4.1.2"
+  },
+  "devDependencies": {
+    "@cucumber/pretty-formatter": "^1.0.0-alpha.2",
+    "chai": "^4.3.6"
+  }
+}
